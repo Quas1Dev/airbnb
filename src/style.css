@@ -8,6 +8,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.gray{
+  color: #918E9B;
 }
 
 .page-header--nav{
@@ -30,7 +35,6 @@
 }
 
 .experiences {
-  font-family: Poppins, sans-serif;
   margin: 32px 36px;
 }
 
@@ -42,4 +46,38 @@
   font-size: 16px;
   font-weight: lighter;
   width: 320px;
+}
+
+.cards-gallery{
+  padding: 49px 37px;
+}
+
+.card{
+  width: 178px;
+}
+
+.card--photo{
+  width: 100%;
+}
+
+.card--rating_icon {
+  width: 17px;
+  height: 17px;
+}
+
+.card--info{
+  font-size: 13px;
+}
+
+.info--details{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+}
+
+
+.info--description{
+  font-weight: lighter;
+  font-size: 13px;
 }
