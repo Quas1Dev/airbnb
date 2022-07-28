@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-Regular.otf),
+       url(./fonts/Poppins-Bold.otf),
+       url(./fonts/Poppins-Light.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page-header--nav{
+  padding: 22px 30px;
+  box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.page-header--nav .nav--logo{
+  width: 82px;
+}
+
+.page-header .composing_height--cocomposing{
+  margin: 26px auto;
+  width: 100%;
+}
+
+.page-header--composing_width{
+  max-width: 71%;
+  margin: auto;
+}
+
+.experiences {
+  font-family: Poppins, sans-serif;
+  margin: 32px 36px;
+}
+
+.experiences h1{
+  font-size: 36px;
+}
+
+.experiences p{
+  font-size: 16px;
+  font-weight: lighter;
+  width: 320px;
+}
