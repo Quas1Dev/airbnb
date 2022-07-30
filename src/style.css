@@ -50,10 +50,17 @@
 
 .cards-gallery{
   padding: 49px 37px;
+  overflow-x: scroll;
+  display: flex;
+  gap: 18px;
 }
 
 .card{
+  position: relative;
   width: 178px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
 }
 
 .card--photo{
@@ -69,13 +76,22 @@
   font-size: 13px;
 }
 
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
 .info--details{
   display: flex;
   flex-direction: row;
   gap: 2px;
   align-items: center;
 }
-
 
 .info--description{
   font-weight: lighter;
