@@ -6,15 +6,8 @@ import CardsData from './data.js'
 export default function CardsGallery() {
   const dataArray = CardsData.map(dataObject => <Cards
       key = {dataObject.id}
-      img = {dataObject.coverImg}
-      rating = {dataObject.stats.rating}
-      star = "star.png"
-      reviewCount = {dataObject.stats.reviewCount}
-      country = "USA"
-      title = {dataObject.title}
-      price = {dataObject.price}
-      openSpots = {dataObject.openSpots}
-      location = {dataObject.location}
+      // Pass all object's properties as the property and value
+      {...dataObject}
     />)
 
   return(
