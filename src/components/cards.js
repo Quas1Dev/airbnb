@@ -3,11 +3,11 @@ export default function Cards(props) {
   console.log(props.location)
   if (!props.openSpots) {
     badgeText = "SOULD OUT"
-  }else if (props.location === "Online"){
+  } else if (props.location === "Online"){
     badgeText = "ONLINE"
   }
 
-  return(
+  return (
     <div className="card">
     {/* Conditionally display badge */}
       { badgeText && <div className="card-badge">{badgeText}</div> }
